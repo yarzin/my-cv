@@ -4,40 +4,42 @@
 	<title>My CV</title>
 	<meta charset="utf-8" />
 	<meta name = "CV" content = "CV, my projects" />
-	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<link rel="stylesheet" href="css/index.css" type="text/css"/>
 </head>
 <body>
 	<header class="head">
-		<div id=title>
+		<div id="title">
 			<h1>Yaroslav Zin</h1>
-			<h2>Junior ruby developer</h2>
+			<h3>Junior ruby developer</h3>
 		</div>
-		<nav class="main-nav">
-			<ul>
-				<li><a href="index.html">Main</a></li>
+		<nav id="mainmenu">
+			<ul id="menu">
+				<li class="active"><a href="index.html">Main</a></li>
 				<li><a href="cv.html">My CV</a></li>
 				<li><a href="projects.html">My projects</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
+		<div class="floatr"></div> 
 	</header>
 	
 	<div class="content">
 		<section>
-			<div>
-				<h2>Hello</h2>
-				<p>This is my CV cite</p>
+			<div class="hello">
+				<h1>Hello all :)</h1>
+				<h3>This is my personal CV cite</h3>
 			</div>
-			<div class="my-photo"><img src="my_photo.jpg" alt="image" /></div>
-				<nav id="little-menu">
-					<ul>
-						<li><a href="cv.html">My CV</a></li>
-						<li><a href="projects.html">My projects</a></li>
-						<li><a href="#skills.html">Skills</a></li>
-					</ul>
-				</nav>
+			<div class="my-photo"><img src="images/photo.jpg" alt="image" /></div>
+			<div>
+				<ul>
+ 					<li><a href="cv.html" class="round green">My CV<span class="round">Little more information about me</span></a></li>
+  					<li><a href="projects.html" class="round red">Projects<span class="round">To see all my projects click me</span></a></li>
+					<li><a href="#skills" class="round yellow">Skills<span class="round">My professional skills</span></a></li>
+				</ul> 
+			</div>
 		<div class="text">
-			<p>some little information about me. What I like, my hobby etc...</p>
+			<p>My name is Yaroslav. I am engineer in Karpenko Physico Mechanical institute. I like travel a lot , especially hiking, also I like snowboarding very much. I have finished courses of Ruby on Rails, and html/css/javascript fundamentals. At this moment I have written two projects with a help of ROR and this website. 
+Each day I spend a lot of time for studying, because I have a goal to improve my programming skills.</p>
 		</div>
 		</section>
 
@@ -45,14 +47,23 @@
 
 
 
-	<footer class="foot">
-		<div>
-			<span>"Call me"</span>
-			<span>"My email"</span>
-			<span>"Created by"<a href="https://ua.linkedin.com/in/yaroslav-zin-135864b2">Yaroslav Zin</a></span>
-		</div>
+	<footer id="footer">
+		<div class="foot">
+            <ul>
+            	<li><a href="https://www.facebook.com/yariskav.zin" title="facebook"><img src="images/social/facebook_32.png" alt="facebook" title="facebook" class="social"/></a></li>
+  				<li><a href="#" title="linkedin"><img src="images/social/linkedin_32.png" alt="linkedin" title="linkedin" /></a></li>
+  				<li><a href="#" title="flickr"><img src="images/social/skype_32.png" alt="buzz" title="skype" /></a></li>
+			</ul>
+        </div>
+	<span>
+        <p class="email">zinyaroslav@gmail.com
+		<br>
+		<br>
+		Call me: 097-84-69-721
+        </p>
+		<p class="copyright">&copy;2016 yZin. All rights reserved.</p>
+	</span>		
+    </div>	
 	</footer>
-
-
 </body>
 </html>
