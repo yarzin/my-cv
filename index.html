@@ -1,69 +1,191 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<title>My CV</title>
-	<meta charset="utf-8" />
-	<meta name = "CV" content = "CV, my projects" />
-	<link rel="stylesheet" href="css/index.css" type="text/css"/>
-</head>
+<title>My personal CV cite</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="css/dashboard.css" rel="stylesheet">
+<link href="css/style.css" rel='stylesheet' type='text/css'/>
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="junior ruby developer, yaroslav zin, cv cite" />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+ </head>
 <body>
-	<header class="head">
-		<div id="title">
-			<h1>Yaroslav Zin</h1>
-			<h3>Junior ruby developer</h3>
+<div class="col-sm-3 col-md-2 sidebar">
+		 <div class="sidebar_top">
+			 <h1>Yaroslav Zin</h1>
+             <span>Junior ruby developer</span>
+			 <img src="images/avt.jpg" alt="yaroslav zin"/>
+		 </div>
+		<div class="details">
+			 <h3>PHONE</h3>
+			 <p>097-84-69-721</p>
+             <h3>SKYPE</h3>
+			 <p>yarzin1</p> 
+			 <h3>EMAIL</h3>
+			 <p><a>zinyaroslav@gmail.com</a></p>
+			 <div class="links">
+                 <h3>Links to:</h3>
+                 <a class="navbar-brand" href="https://ua.linkedin.com/in/yaroslav-zin-135864b2">
+                    <img alt="Brand" src="images/social/linkedin_32.png">
+                </a>
+                  <a class="navbar-brand" href="https://github.com/yarzin">
+                    <img alt="Brand" src="images/social/Github-icon.png">
+                </a>
+			 </div>
+			
 		</div>
-		<nav id="mainmenu">
-			<ul id="menu">
-				<li class="active"><a href="index.html">Main</a></li>
-				<li><a href="cv.html">My CV</a></li>
-				<li><a href="projects.html">My projects</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		<div class="floatr"></div> 
-	</header>
-	
-	<div class="content">
-		<section>
-			<div class="hello">
-				<h1>Hello all :)</h1>
-				<h3>This is my personal CV cite</h3>
+		<div class="clearfix"></div>
+</div>
+		
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	 <div class="content">
+		 <div class="details_header">
+			 <ul>
+				 <li><a href="download/Yaroslav_Zin.PDF" target="_blank" download="Yaroslav_Zin.PDF"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Download My CV</a></li>
+				 <li><a href="#" onclick="window.print();return false;"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>Print CV</a></li>
+				 <li><a href="#contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Email me</a></li>
+			 </ul>
+		 </div>
+         <div class="skills">
+			 <h3 class="clr2">Professional skills</h3>
+			 <div class="skill_info">
+			 <p>Personal qualities: ability to work well. Integrity in work. Ability to quickly learn new software product technology. Having creativity. The presence of the desire to work and earn. Each day I spend a lot of time for studying, because I have a goal to improve my programming skills.</p>
+			 </div>
+			 <div class="skill_list">
+				 <div class="skill1">
+					 <h4>Languages</h4>
+					 <ul>					 
+						<li>HTML5</li>
+                         <li>CSS3</li>
+						<li>JavaScript</li>
+						<li>Ruby</li>
+				     </ul>
+				 </div>
+				 <div class="skill2">
+					 <h4>Frameworks</h4>
+					 <ul>					 
+						<li>Ruby on Rails</li>
+						<li>Bootstrap</li>
+						<li>jQuery</li>
+				     </ul>
+				 </div>
+                 <div class="skill2">
+					 <h4>Development Tools</h4>
+					 <ul>					 
+						<li>Git/GitHub</li>
+						<li>Heroku</li>
+						<li>RubyMine</li>
+						<li>Chrome DevTools</li>
+					 </ul>
+				 </div>
+                 
+				 <div class="clearfix"></div>
+			 </div>
+		 </div>
+         <div class="company">
+			 <h3 class="clr1">Previous Employment</h3>
+			 <div class="company_details">
+				 <h4>Karpenko Physical Mechanical Research Institute of National
+                     Academy of Sciences of Ukraine.
+                     <br>
+                <span>November 2009 - PRESENT</span></h4>
+				 <h6>Engineer</h6>
+				 <p class="cmpny1"> </p>
+			 </div>
+		 </div>
+         <div class="education">
+			 <h3 class="clr3">My projects</h3>
+			 <div class="education_details">
+				 <h4>Internet shop</h4>
+                 <div class="progress" style="width:80%">
+                     <div class="progress-bar progress-bar-danger" role="progressbar" style="width:60%">
+                      Ruby 65%
+                    </div>
+                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:28%">
+                      HTML 25%
+                    </div>
+                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:12%">
+                      CSS 12%
+                    </div>
+                </div>
+                 <p>Language: Ruby v2.3.0</p>
+                 <p>Frameworks: Ruby on Rails v4.2.6, Bootstrap v3.3.7</p>
+                 <p>Other tools: PostgreSQL, HTML5, CSS3, HAML</p>
+                 <p>Gems: Paperclip, Devise, Rspec, Coveralls, OmniAuth Google+, Factory Girl, I18n</p>
+                 <p>Links: <a href="https://github.com/yarzin/rails_yarzin">Source code(GitHub)</a>, <a href="https://hidden-waters-73156.herokuapp.com/">app on Heroku</a></p>
+			 </div>
+             <div class="education_details">
+				 <h4>Sample twiter</h4>
+                 <div class="progress" style="width:80%">
+                     <div class="progress-bar progress-bar-danger" role="progressbar" style="width:65%">
+                      Ruby 70%
+                    </div>
+                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:25%">
+                      HTML 20%
+                    </div>
+                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+                      CSS 10%
+                    </div>
+                 </div>
+				 <p>Language: Ruby v2.3.0</p>
+                 <p>Frameworks: Ruby on Rails v4.2.6, Bootstrap v3.3.7</p>
+                 <p>Other tools: PostgreSQL, HTML5, CSS3</p>
+                 <p>Gems: Paperclip, Devise, Rspec, Factory Girl</p>
+                 <p>Links: <a href="https://github.com/yarzin/sample_app">Source code(GitHub)</a>, <a href="contact.html">app on Heroku</a></p>
+			 </div>
+         </div>
+		 <div class="education">
+			 <h3 class="clr3">Education</h3>
+			 <div class="education_details">
+				 <h4>National University "Lviv Polytechnic"<span>2005 - 2010</span></h4>
+				 <p>M.S in Materials Science, Institute of
+                    Engineering Mechanics and Transport, Department of Engineering, Materials Science and
+                    Applied Physics.</p>
+			 </div>
+			 <div class="education_details">
+				 <h4>Physico-Mechanical Institute<span>2011 – 2015</span></h4>
+				 <p>Postgraduate Study in Corrosion and Corrosion Protection at Karpenko
+                     Physico-Mechanical Institute of National Academy of Sciences of Ukraine.</p>
+			 </div>
+             <div class="education_details">
+				 <h4>Cursor Education<span>2016</span></h4>
+				  <p>Computer courses of Ruby and Ruby on Rails</p>
+			 </div>
+             <div class="education_details">
+				 <h4>SoftServ Academy<span>November 2016</span></h4>
+				  <p>Courses "HTML5/CSS3/JavaScript Fundamentals" - Web-development courses for beginners based on Microsoft IT Academy program</p>
+			 </div>
+             <div class="education_details">
+				 <h4>Codecademy<span>2016</span></h4>
+				  <p>Courses: HTML & CSS, JavaScript, Ruby</p>
+			 </div>
+		 </div>
+         <div class="company contact-grid">
+			 <h3 id="contact" class="clr1">Contact</h3>
+			 <form method="POST" action="http://formspree.io/zinyaroslav@gmail.com">	
+					<input type="text" value="Name">					
+					<input type="text" value="Email">
+					<input type="text" value="Subject">						
+					<textarea cols="77" rows="6" value=" ">Message</textarea>
+					<div class="send">
+						<input type="submit" value="Send" >
+					</div>
+			 </form>
+			 <div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82352.67119138295!2d23.942024017557248!3d49.83266784562493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1479809607967"></iframe>
 			</div>
-			<div class="my-photo"><img src="images/photo.jpg" alt="image" /></div>
-			<div>
-				<ul>
- 					<li><a href="cv.html" class="round green">My CV<span class="round">Little more information about me</span></a></li>
-  					<li><a href="projects.html" class="round red">Projects<span class="round">To see all my projects click me</span></a></li>
-					<li><a href="#skills" class="round yellow">Skills<span class="round">My professional skills</span></a></li>
-				</ul> 
-			</div>
-		<div class="text">
-			<p>My name is Yaroslav. I am engineer in Karpenko Physico Mechanical institute. I like travel a lot , especially hiking, also I like snowboarding very much. I have finished courses of Ruby on Rails, and html/css/javascript fundamentals. At this moment I have written two projects with a help of ROR and this website. 
-Each day I spend a lot of time for studying, because I have a goal to improve my programming skills.</p>
-		</div>
-		</section>
-
-	</div>
-
-
-
-	<footer id="footer">
-		<div class="foot">
-            <ul>
-            	<li><a href="https://www.facebook.com/yariskav.zin" title="facebook"><img src="images/social/facebook_32.png" alt="facebook" title="facebook" class="social"/></a></li>
-  				<li><a href="#" title="linkedin"><img src="images/social/linkedin_32.png" alt="linkedin" title="linkedin" /></a></li>
-  				<li><a href="#" title="flickr"><img src="images/social/skype_32.png" alt="buzz" title="skype" /></a></li>
-			</ul>
-        </div>
-	<span>
-        <p class="email">zinyaroslav@gmail.com
-		<br>
-		<br>
-		Call me: 097-84-69-721
-        </p>
-		<p class="copyright">&copy;2016 yZin. All rights reserved.</p>
-	</span>		
-    </div>	
-	</footer>
+		 <div class="copywrite">
+			 <p>© 2016 yZin</p>
+		 </div>
+	 </div>
+</div>
+<!---->
+    <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
 </body>
 </html>
